@@ -1,1 +1,8 @@
+User-agent: Mediapartners-Google
+Disallow: /res
 
+User-agent: *
+Allow: /
+Disallow: /res
+
+Sitemap: http://www.fbdownz.com/sitemap.xml
