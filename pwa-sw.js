@@ -17,7 +17,6 @@ self.addEventListener('install', function (e) {
 		});
 	}));
 });
-
 // Activate
 self.addEventListener('activate', function (e) {
 	console.log('PWA sw activation');
@@ -34,9 +33,7 @@ self.addEventListener('activate', function (e) {
 
 // Fetch
 self.addEventListener('fetch', function (e) {
-
 	if (!checkFetchRules(e)) return;
-
 	// Strategy for online user
 	if (e.request.mode === 'navigate' && navigator.onLine) {
 		e.respondWith(fetch(e.request).then(function (response) {
@@ -49,7 +46,6 @@ self.addEventListener('fetch', function (e) {
 		}));
 		return;
 	}
-
 	// Strategy for offline user
 	e.respondWith(caches.match(e.request).then(function (response) {
 		return response || fetch(e.request).then(function (response) {
@@ -64,7 +60,6 @@ self.addEventListener('fetch', function (e) {
 		return caches.match(offline_page);
 	}));
 });
-
 // Check never cache urls 
 function check_never_cache_urls(url) {
 	if (this.match(url)) {
@@ -72,21 +67,16 @@ function check_never_cache_urls(url) {
 	}
 	return true;
 }
-
 // Fetch Rules
 function checkFetchRules(e) {
-
 	// Check request url from inside domain.
 	if (new URL(e.request.url).origin !== location.origin) return;
-
 	// Check request url http or https
 	if (!e.request.url.match(/^(http|https):\/\//i)) return;
-
 	// Show offline page for POST requests
 	if (e.request.method !== 'GET') {
 		return caches.match(offline_page);
 	}
-
 	return true;
 }
 
