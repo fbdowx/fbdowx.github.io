@@ -334,8 +334,63 @@ FBDownz offered in - <a href="/">English</a> <a href="/bn/">বাংলা</a> 
 </div>
 	<div><a href="about.html">Acerca de</a> <a href="terms.html">Términos de uso</a> <a href="/privacy.html">Política de privacidad</a> <a href="contact.html">Contáctanos</a></div>
 <div>&copy; 2024 fbdownz.com </div></div>
+
+<fieldset>
+			<legend>
+				Dialog manual control
+			</legend>
+			<button onclick="pwaInstall.showDialog()">Show</button>
+			<button onclick="pwaInstall.showDialog(true)">Show(forced)</button>
+			<button onclick="pwaInstall.hideDialog()">Hide</button><hr>
+			<button onclick="pwaInstall.install()">Install</button>
+			<button onclick="getRelated()">Get related apps</button>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Force Style
+			</legend>
+			<button onclick="forceStyle('apple-desktop')">Apple Desktop</button>
+			<button onclick="forceStyle('apple-mobile')">Apple Mobile</button>
+			<button onclick="forceStyle('chrome')">Chrome</button><br>
+			<i>*end style depends on browser and OS</i>
+			<hr>
+
+			<input type="text" placeholder="Install description text" onchange="setAttr('install-description', this.value)"><br>
+			<label>
+				<input type="checkbox" onchange="disableInstallDescription(this)">
+				Hide install description
+			</label><br>
+			<label>
+				<input type="checkbox" onchange="disableScreenshots(this)">
+				Hide screenshots
+			</label><br>
+			<label>
+				<input type="checkbox" onchange="disableClose(this)">
+				Disable Close
+			</label><hr>
+	
+			<input type="text" placeholder="App name text" onchange="setAttr('name', this.value)"><br>
+			<input type="text" placeholder="App description text" onchange="setAttr('description', this.value)"><br>
+		</fieldset>
+		<fieldset>
+			<legend>
+				Events
+			</legend>
+			<textarea readonly id="events-area" rows="10">
+
+			</textarea>
+		</fieldset>
+	</section>
+
+
+
+	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="/res/js/app.min.js"></script>
+
+
+
+	
 	<script type="module" src="pwa-install.bundle.js"></script>
 	<script type="text/javascript">
 		if ("serviceWorker" in navigator) {
