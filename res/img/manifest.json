@@ -2,7 +2,7 @@
 {
     "name": "Progressive Web Application",
     "short_name": "PWA",
-    "start_url": "/",
+    "start_url": "/?utm_source=pwa",
     "display": "standalone",
     "background_color": "#fff",
     "theme_color": "#82307b",
