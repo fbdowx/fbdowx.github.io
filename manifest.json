@@ -4,13 +4,13 @@
     "description": "RedCherry Simple PWA",
     "icons": [
         {
-            "src": "res/img/apple-touch-icon-192-precomposed",
+            "src": "res/img/apple-touch-icon-192-precomposed.png",
             "sizes": "192x192",
             "type": "image/png",
             "purpose": "any maskable"
         },
         {
-            "src": "res/img/apple-touch-icon-512-precomposed",
+            "src": "res/img/apple-touch-icon-512-precomposed.png",
             "sizes": "512x512",
             "type": "image/png"
         }
