@@ -391,13 +391,13 @@ FBDownz offered in - <a href="/">English</a> <a href="/bn/">বাংলা</a> 
 
 
 	
-	<script type="module" src="./pwa-install.bundle.js"></script>
+	<script type="module" src="/pwa-install.bundle.js"></script>
 	<script type="text/javascript">
 		if ("serviceWorker" in navigator) {
 			if (navigator.serviceWorker.controller) {
 				console.log("Active service worker found, no need to register");
 			} else {
-				navigator.serviceWorker.register('./service-worker.js', {scope: '/'}).then(function (reg) {
+				navigator.serviceWorker.register('/service-worker.js', {scope: '/'}).then(function (reg) {
 					console.log("Service worker registered");
 				});
 			}
