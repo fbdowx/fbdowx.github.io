@@ -61,6 +61,8 @@ addToHomeScreenBtn.addEventListener('click', () => {
         });
     } else {
         // Handle non-supported browsers or devices
-        showToast('This button only works with Android / Chrome.');
+        if (!isAndroid() || !isChrome()) {
+            showToast('This button only works with Android / Chrome.');
+        }
     }
 });
