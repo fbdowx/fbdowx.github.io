@@ -68,7 +68,7 @@
     "theme_color": "#af0a1a",
     "display": "fullscreen",
     "orientation": "any",
-    "start_url": ".",
+    "start_url": "index.html",
     "url": ".",
     "scope": "."
 }
