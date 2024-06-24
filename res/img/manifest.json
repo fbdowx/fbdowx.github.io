@@ -1,59 +1,37 @@
-
 {
-    "name": "Progressive Web Application",
-    "short_name": "PWA",
-    "start_url": "/?utm_source=pwa",
-    "display": "standalone",
-    "background_color": "#fff",
-    "theme_color": "#82307b",
-    "description": "Installation component for Progressive Web Application DEMO",
+    "name": "RedCherry",
+    "short_name": "RedCherry",
+    "description": "RedCherry Simple PWA",
     "icons": [
         {
-            "src": "icons/icon@192.png",
-            "type": "image/png",
+            "src": "img/fav-192.png",
             "sizes": "192x192",
-            "purpose": "any"
+            "type": "image/png",
+            "purpose": "any maskable"
         },
         {
-            "src": "icons/icon@512.png",
-            "type": "image/png",
+            "src": "img/fav-512.png",
             "sizes": "512x512",
-            "purpose": "any"
+            "type": "image/png"
         }
     ],
-	"screenshots": [
-		{
-			"src": "screenshots/mobile-1.jpg",
-			"sizes": "551x979",
-			"type": "image/jpeg"
-		},
+    "screenshots": [
         {
-			"src": "screenshots/mobile-2.jpg",
-			"sizes": "518x922",
-			"type": "image/jpeg"
-		},
+            "src": "img/screenshot-1.jpg",
+            "sizes": "1000x1600",
+            "type": "image/jpeg"
+        },
         {
-			"src": "screenshots/mobile-3.jpg",
-			"sizes": "518x922",
-			"type": "image/jpeg"
-		},
-        {
-			"src": "screenshots/tablet-1.jpg",
-			"sizes": "1270x800",
-			"type": "image/jpeg",
-			"form_factor": "wide"
-		},
-        {
-			"src": "screenshots/tablet-2.jpg",
-			"sizes": "1270x800",
-			"type": "image/jpeg",
-			"form_factor": "wide"
-		}
-	],
-	"related_applications": [
-		{
-			"platform": "webapp",
-			"url": "manifest.json"
-		}
-	]
-  }
+            "src": "img/screenshot-2.jpg",
+            "sizes": "1000x1600",
+            "type": "image/jpeg"
+        }
+    ],
+    "background_color": "#af0a1a",
+    "theme_color": "#af0a1a",
+    "display": "fullscreen",
+    "orientation": "any",
+    "start_url": ".",
+    "url": "index.html",
+    "scope": ".",
+}
