@@ -33,5 +33,5 @@
     "orientation": "any",
     "start_url": ".",
     "url": "index.html",
-    "scope": ".",
+    "scope": "."
 }
