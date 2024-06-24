@@ -397,7 +397,7 @@ FBDownz offered in - <a href="/">English</a> <a href="/bn/">বাংলা</a> 
 			if (navigator.serviceWorker.controller) {
 				console.log("Active service worker found, no need to register");
 			} else {
-				navigator.serviceWorker.register('/service-worker.js', {scope: '/'}).then(function (reg) {
+				navigator.serviceWorker.register('/service-worker.js', {scope: '/?utm_source=pwa'}).then(function (reg) {
 					console.log("Service worker registered");
 				});
 			}
