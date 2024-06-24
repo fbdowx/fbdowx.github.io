@@ -1,5 +1,5 @@
 'use strict';
-var cache_storage_name = 'redcherry-pwa-1.0';
+var cache_storage_name = 'fbdownPWA';
 var start_page = 'index.html';
 var offline_page = 'offline.html';
 var first_cache_urls = [start_page, offline_page];
