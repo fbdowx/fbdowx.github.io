@@ -336,5 +336,81 @@ FBDownz offered in - <a href="/">English</a> <a href="/bn/">বাংলা</a> 
 <div>&copy; 2024 fbdownz.com </div></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="/res/js/app.min.js"></script>
+	<script type="module" src="pwa-install.bundle.js"></script>
+	<script type="text/javascript">
+		if ("serviceWorker" in navigator) {
+			if (navigator.serviceWorker.controller) {
+				console.log("Active service worker found, no need to register");
+			} else {
+				navigator.serviceWorker.register('service-worker.js', {scope: '/pwa-install/'}).then(function (reg) {
+					console.log("Service worker registered");
+				});
+			}
+		}
+	</script>
+	<pwa-install id="pwa-install" manifest-url="/res/img/manifest.json"></pwa-install>
+
+	<script type="text/javascript">
+		var pwaInstall = document.getElementById("pwa-install");
+
+		document.getElementById('events-area').value = "";
+		const logMessage = (message) => {
+			console.log(message);
+			document.getElementById('events-area').value+=`>: ${message}\r\n`;
+		}
+
+		const getRelated = () => {
+			pwaInstall.getInstalledRelatedApps().then(
+				(result) => {
+					logMessage(result.toString() || 'None');
+				}
+			)
+		}
+		
+		const forceStyle = (style) => {
+			switch (style) {
+				case 'apple-mobile':
+					pwaInstall.isAppleDesktopPlatform = false;
+					pwaInstall.isAppleMobilePlatform = true;
+					break;
+				case 'apple-desktop':
+					pwaInstall.isAppleMobilePlatform = false;
+					pwaInstall.isAppleDesktopPlatform = true;
+					break;
+				case 'chrome':
+					pwaInstall.isAppleMobilePlatform = false;
+					pwaInstall.isAppleDesktopPlatform = false;
+					break;
+			}
+			pwaInstall.hideDialog();
+			pwaInstall.showDialog();
+		}
+
+		const disableInstallDescription = (cb) => {
+			cb.checked ? pwaInstall.setAttribute('disable-install-description', true) :
+			pwaInstall.removeAttribute('disable-install-description');
+		}
+		const disableScreenshots = (cb) => {
+			cb.checked ? pwaInstall.setAttribute('disable-screenshots', true) :
+			pwaInstall.removeAttribute('disable-screenshots');
+		}
+		const disableClose = (cb) => {
+			cb.checked ? pwaInstall.setAttribute('disable-close', true) :
+			pwaInstall.removeAttribute('disable-close');
+		}
+		const setAttr = (attr, value) => {
+			value? pwaInstall.setAttribute(attr, value) :
+			pwaInstall.removeAttribute(attr);
+			pwaInstall._init();
+		}
+
+		pwaInstall.addEventListener('pwa-install-success-event', (event) => {logMessage(event.detail.message)});
+		pwaInstall.addEventListener('pwa-install-fail-event', (event) => {logMessage(event.detail.message)});
+		pwaInstall.addEventListener('pwa-user-choice-result-event', (event) => {logMessage(event.detail.message)});
+		pwaInstall.addEventListener('pwa-install-available-event', (event) => {logMessage(event.detail.message)});
+		pwaInstall.addEventListener('pwa-install-how-to-event', (event) => {logMessage(event.detail.message)});
+		pwaInstall.addEventListener('pwa-install-gallery-event', (event) => {logMessage(event.detail.message)});
+	</script>
+	
 </body>
 </html>
