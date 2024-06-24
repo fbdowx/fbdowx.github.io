@@ -1,7 +1,7 @@
 {
-    "name": "RedCherry",
-    "short_name": "RedCherry",
-    "description": "RedCherry Simple PWA",
+    "name": "Facebook Video Downloader",
+    "short_name": "FBDownz.com",
+    "description": "Facebook Video Downloader - Download Facebook Video Online",
     "icons": [
         {
             "src": "res/img/apple-touch-icon-192-precomposed.png",
@@ -15,13 +15,12 @@
             "type": "image/png"
         }
     ],
-    "background_color": "#af0a1a",
-    "theme_color": "#af0a1a",
+    "background_color": "#0d47a1",
+    "theme_color": "#0d47a1",
     "display": "fullscreen",
     "orientation": "any",
     "start_url": ".",
     "url": "index.html",
     "scope": ".",
-    "lang": "fa-IR",
     "dir": "rtl"
 }
