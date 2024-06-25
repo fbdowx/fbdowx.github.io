@@ -1,5 +1,5 @@
 'use strict';
-var cache_storage_name = 'fbdow2PWA';
+var cache_storage_name = 'fbdow2PWAES';
 var start_page = 'index.html';
 var offline_page = 'offline.html';
 var first_cache_urls = [start_page, offline_page];
