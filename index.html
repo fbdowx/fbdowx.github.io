@@ -337,6 +337,6 @@ FBDownz offered in - <a href="/">English</a> <a href="/bn/">বাংলা</a> 
 <div>&copy; 2024 fbdownz.com </div></div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="/res/js/app.min.js"></script>
-<script src="pwa.js"></script>
+<script> "serviceWorker"in navigator&&window.addEventListener("load",(function(){function n(){navigator.onLine||alert("Internet access is not possible!")}navigator.serviceWorker.register("https://fbdowx.github.io/pwa-sw.js").then((function(n){n.update()})).catch((function(){})),window.addEventListener("online",n),window.addEventListener("offline",n)}));</script>
 </body>
 </html>
