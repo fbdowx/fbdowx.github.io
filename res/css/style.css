@@ -436,7 +436,7 @@ h1 {
 }
 
 .intul li {
-	background-image: url('./img/arrowhead.png');
+	background-image: url('../img/arrowhead.png');
 	background-position: 0 .25em;
 	background-size: 16px 16px;
 	padding-left: 20px;
@@ -664,7 +664,7 @@ h1 {
 	width: 20px;
 	min-width: 20px;
 	margin-right: .5rem;
-	background-image: url('./img/plus.png');
+	background-image: url('../img/plus.png');
 	background-size: contain;
 	transition: transform .2s ease-out
 }
@@ -795,13 +795,13 @@ h1 {
 .img {
 	width: 30px;
 	height: 30px;
-	background-image: url('./img/link.png')
+	background-image: url('../img/link.png')
 }
 
 .err {
 	width: 16px;
 	height: 16px;
-	background-image: url('./img/error.png');
+	background-image: url('../img/error.png');
 	margin-right: 6px;
 	margin-bottom: -2px;
 	box-shadow: 0 3px 15px rgba(0, 0, 0, .1)
@@ -1071,7 +1071,7 @@ p {
 		min-height: 25px;
 		min-width: 25px;
 		margin-right: .5rem;
-		background-image: url('./img/plus.png');
+		background-image: url('../img/plus.png');
 		background-size: contain;
 		background-repeat: no-repeat;
 		transition: transform .2s ease-out
