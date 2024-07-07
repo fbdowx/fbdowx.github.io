@@ -296,5 +296,9 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
-
+<url>
+    <loc>https://fbdownz.com/de/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
 </urlset>
