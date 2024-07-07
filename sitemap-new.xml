@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- English version URLs -->
+<url>
+    <loc>https://fbdownz.com/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Spanish version URLs -->
+<url>
+    <loc>https://fbdownz.com/es/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/es/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/es/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/es/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/es/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/es/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/es/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Portuguese version URLs -->
+<url>
+    <loc>https://fbdownz.com/pt/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/pt/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/pt/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/pt/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/pt/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/pt/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/pt/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Indonesian version URLs -->
+<url>
+    <loc>https://fbdownz.com/id/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/id/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/id/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/id/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/id/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/id/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/id/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Arabic version URLs -->
+<url>
+    <loc>https://fbdownz.com/ar/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/ar/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/ar/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/ar/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/ar/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/ar/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/ar/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Bengali version URLs -->
+<url>
+    <loc>https://fbdownz.com/bn/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/bn/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/bn/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/bn/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/bn/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/bn/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/bn/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Tagalog version URLs -->
+<url>
+    <loc>https://fbdownz.com/fil/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/fil/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/fil/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/fil/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/fil/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/fil/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/fil/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Thai version URLs -->
+<url>
+    <loc>https://fbdownz.com/th/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/th/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/th/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/th/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/th/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/th/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/th/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+<!-- Vietnamese version URLs -->
+<url>
+    <loc>https://fbdownz.com/vi/</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/vi/facebook-video-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/vi/facebook-reel-downloader.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/vi/how-to-download-facebook-video.html</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/vi/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/vi/disclaimer.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://fbdownz.com/vi/contact.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+
+</urlset>
